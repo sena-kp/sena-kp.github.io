@@ -4,3 +4,7 @@ body {
     background-color: beige;
     padding: 40px;
 }
+
+p {
+    margin-bottom: 1em;
+}
