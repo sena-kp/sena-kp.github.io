@@ -1,10 +1,45 @@
-body {
-    width: 90%;
-    margin: 40px auto;
-    background-color: rgb(220, 232, 236);
-    padding: 40px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+    background-color: rgb(205, 209, 200);
+    padding: 40px;
+    font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
 p {
     margin-bottom: 1em;
+}
+
+.content-container {
+    background-color: #ffffff;
+    max-width: 1400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+nav {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+nav a~:last-child {
+    margin-right: 0;
 }
